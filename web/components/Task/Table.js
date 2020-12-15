@@ -29,7 +29,6 @@ const TaskTable = ({dataSource}) => {
             </>
             ),
         },
-        
       ];
 
     return <Table dataSource={dataSource} columns={columns} />;
